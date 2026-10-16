@@ -1,0 +1,6 @@
+{
+  "name": "Dynamic Travel and Tours",
+  "description": "Dynamic Travel and Tours - Premier travel agency offering Umrah & Hajj services, international tour packages, domestic Pakistan travel, visa processing, and air ticketing from Gul Bahar, Peshawar, Pakistan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
