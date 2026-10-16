@@ -1,5 +1,10 @@
 import { TourPackage, ServiceDetail, BlogPost } from '../types';
 
+import heroTravelWorld from '../assets/images/hero_travel_world_1792133424282.jpg';
+import umrahMakkahHoly from '../assets/images/umrah_makkah_holy_1792133424776.jpg';
+import hunzaSkarduMountains from '../assets/images/hunza_skardu_mountains_1792133424865.jpg';
+import internationalDestinations from '../assets/images/international_destinations_1792133425038.jpg';
+
 export const BUSINESS_INFO = {
   name: 'Dynamic Travel and Tours',
   shortName: 'Dynamic Travel',
@@ -9,10 +14,10 @@ export const BUSINESS_INFO = {
   whatsappUrl: 'https://wa.me/923189011775',
   address: 'Gul Bahar, Peshawar, Khyber Pakhtunkhwa, Pakistan',
   officeHours: 'Monday – Saturday: 9:00 AM – 9:00 PM (PKT) | Sunday: By Appointment',
-  heroImage: '/src/assets/images/hero_travel_world_1792133424282.jpg',
-  umrahImage: '/src/assets/images/umrah_makkah_holy_1792133424776.jpg',
-  domesticImage: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg',
-  internationalImage: '/src/assets/images/international_destinations_1792133425038.jpg',
+  heroImage: heroTravelWorld,
+  umrahImage: umrahMakkahHoly,
+  domesticImage: hunzaSkarduMountains,
+  internationalImage: internationalDestinations,
 };
 
 export const SERVICES_LIST: ServiceDetail[] = [
@@ -159,7 +164,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Fast-track electronic visa processing included'
     ],
     inclusions: ['Umrah Visa', 'Hotel Accommodation', 'Ground Transport', 'Guided Ziyarat', '24/7 Coordinator'],
-    image: '/src/assets/images/umrah_makkah_holy_1792133424776.jpg',
+    image: umrahMakkahHoly,
     departureCity: 'Peshawar or Islamabad',
     recommendedSeason: 'Year-Round (Best Oct–April)'
   },
@@ -177,7 +182,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Pre-departure orientation session in Peshawar'
     ],
     inclusions: ['Ramadan Visa', 'Star Accommodation', 'VIP Ground Transfer', '24/7 Group Leader'],
-    image: '/src/assets/images/umrah_makkah_holy_1792133424776.jpg',
+    image: umrahMakkahHoly,
     departureCity: 'Peshawar or Islamabad',
     recommendedSeason: 'Ramadan 1448 / 1449'
   },
@@ -195,7 +200,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Scenic sunset views of Rakaposhi peak (7,788m)'
     ],
     inclusions: ['Private 4x4 / Grand Cabin', 'Luxury Mountain Hotel stays', 'Daily Breakfast', 'Fuel & Tolls', 'Tour Guide'],
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg',
+    image: hunzaSkarduMountains,
     departureCity: 'Peshawar / Islamabad',
     recommendedSeason: 'April – October'
   },
@@ -213,7 +218,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Stargazing at the Cold Desert of Katpana'
     ],
     inclusions: ['4x4 Mountain Jeep / Transport', 'Selected Resort Lodging', 'Breakfast & Dinner', 'Tour Manager'],
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg',
+    image: hunzaSkarduMountains,
     departureCity: 'Peshawar / Islamabad',
     recommendedSeason: 'May – September'
   },
@@ -231,7 +236,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Visits to historic Buddhist Gandhara archaeological sites in Swat'
     ],
     inclusions: ['Dedicated Transport from Peshawar', 'Standard/Deluxe Hotel stays', 'Jeep ride to Mahodand', 'Driver expenses'],
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg',
+    image: hunzaSkarduMountains,
     departureCity: 'Peshawar (Direct Departure)',
     recommendedSeason: 'Year-Round (Snow in Winter, Lush Green in Summer)'
   },
@@ -249,7 +254,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Stay in unique authentic cave-style boutique hotel'
     ],
     inclusions: ['4-Star & Cave Hotel Accommodation', 'Internal Turkey Flights', 'Daily Breakfast', 'Airport Transfers', 'Guided Excursions'],
-    image: '/src/assets/images/international_destinations_1792133425038.jpg',
+    image: internationalDestinations,
     departureCity: 'Peshawar / Islamabad',
     recommendedSeason: 'September – November / April – June'
   },
@@ -267,7 +272,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Day excursion to Abu Dhabi & the magnificent Sheikh Zayed Grand Mosque'
     ],
     inclusions: ['4-Star Centrally Located Hotel', 'UAE Tourist Visa Processing', 'Daily Buffet Breakfast', 'All Mentioned Tours & Transfers'],
-    image: '/src/assets/images/hero_travel_world_1792133424282.jpg',
+    image: heroTravelWorld,
     departureCity: 'Peshawar (Direct flydubai / Emirates)',
     recommendedSeason: 'October – April'
   },
@@ -285,7 +290,7 @@ export const POPULAR_PACKAGES: TourPackage[] = [
       'Langkawi cable car & SkyCab mountain viewpoint'
     ],
     inclusions: ['Selected 4-Star Hotels', 'Domestic Flight KL-Langkawi', 'Daily Breakfast', 'All Transfers', 'Malaysia eVisa Assistance'],
-    image: '/src/assets/images/international_destinations_1792133425038.jpg',
+    image: internationalDestinations,
     departureCity: 'Peshawar / Islamabad',
     recommendedSeason: 'November – August'
   }
@@ -297,63 +302,63 @@ export const DESTINATIONS_DATA = [
     country: 'Pakistan',
     category: 'Domestic',
     description: 'Known as the Switzerland of Pakistan, featuring Malam Jabba, Kalam, and Ushu pine valleys.',
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg'
+    image: hunzaSkarduMountains
   },
   {
     name: 'Hunza Valley',
     country: 'Pakistan',
     category: 'Domestic',
     description: 'World-renowned mountain paradise framed by Rakaposhi, Ultar Sar, and pristine Attabad Lake.',
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg'
+    image: hunzaSkarduMountains
   },
   {
     name: 'Skardu & Deosai',
     country: 'Pakistan',
     category: 'Domestic',
     description: 'Gateway to K2, featuring Shangrila, Katpana cold desert, and high-altitude wilderness.',
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg'
+    image: hunzaSkarduMountains
   },
   {
     name: 'Naran Kaghan',
     country: 'Pakistan',
     category: 'Domestic',
     description: 'Famous Kunhar River, legendary Saif-ul-Malook lake, and scenic Babusar Pass route.',
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg'
+    image: hunzaSkarduMountains
   },
   {
     name: 'Murree & Galiyat',
     country: 'Pakistan',
     category: 'Domestic',
     description: 'Convenient mountain retreat with colonial architecture, Mall Road, and Ayubia chairlifts.',
-    image: '/src/assets/images/hunza_skardu_mountains_1792133424865.jpg'
+    image: hunzaSkarduMountains
   },
   {
     name: 'Makkah & Madinah',
     country: 'Saudi Arabia',
     category: 'Pilgrimage',
     description: 'The twin holy sanctuaries of Islam, offering spiritually profound Umrah and Hajj journeys.',
-    image: '/src/assets/images/umrah_makkah_holy_1792133424776.jpg'
+    image: umrahMakkahHoly
   },
   {
     name: 'Istanbul & Cappadocia',
     country: 'Turkey',
     category: 'International',
     description: 'A historic crossroads of empires, Bosphorus waterways, and geological cave wonderlands.',
-    image: '/src/assets/images/international_destinations_1792133425038.jpg'
+    image: internationalDestinations
   },
   {
     name: 'Dubai & Abu Dhabi',
     country: 'United Arab Emirates',
     category: 'International',
     description: 'Ultra-modern luxury, world shopping festivals, desert adventures, and grand mosques.',
-    image: '/src/assets/images/hero_travel_world_1792133424282.jpg'
+    image: heroTravelWorld
   },
   {
     name: 'Kuala Lumpur',
     country: 'Malaysia',
     category: 'International',
     description: 'A vibrant Southeast Asian hub of cultural diversity, culinary wonders, and modern architecture.',
-    image: '/src/assets/images/international_destinations_1792133425038.jpg'
+    image: internationalDestinations
   }
 ];
 

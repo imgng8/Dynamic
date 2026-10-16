@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Relative base path ensures GitHub Pages (under /<repo-name>/ subpath) or any hosting works without blank screen
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
